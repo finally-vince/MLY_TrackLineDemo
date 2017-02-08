@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         mMapView = (MapView) findViewById(R.id.bmapView);
         dbAdapter = new DatabaseAdapter(this);
         initBaiduMap();
+        System.out.println("onCreate.");
     }
 
     //初始化地图参数
